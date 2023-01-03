@@ -1,0 +1,23 @@
+{
+  "name": "netease-cloud-music-api-module",
+  "version": "4.8.6",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx ncc build index.js -m && node after-build.js",
+    "test": "node test.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.0.0",
+    "md5": "^2.3.0",
+    "music-metadata": "^7.5.3",
+    "pac-proxy-agent": "^5.0.0",
+    "qrcode": "^1.4.4",
+    "tunnel": "^0.0.6"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.36.0"
+  }
+}
